@@ -1,0 +1,150 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #14131a;
+  color: #fff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  background: none;
+}
+
+.logo__link {
+  margin-top: 40px;
+  width: 46px;
+  height: 71px;
+}
+
+.nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 162px;
+  margin-top: 67px;
+  font-size: 14px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__menu__link {
+  margin-left: 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.nav__menu__link__1 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.nav__menu__link__1:hover {
+  color: #fff;
+}
+
+.nav__menu__link:hover {
+  color: #fff;
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: 110px;
+}
+
+.main__date {
+  margin-top: 80px;
+  margin-bottom: 38px;
+}
+
+.main p {
+  width: 423px;
+  height: 66px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  font-size: 16px;
+}
+
+.button__pimary {
+  width: 204px;
+  height: 46px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 51px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.button__pimary span {
+  color: #8d0019;
+}
+
+.text {
+  background-color: #fff;
+  color: #000;
+}
+
+.img__btn {
+  background-color: #fff;
+  padding-right: 10px;
+}
+
+.button__group {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button {
+  font-size: 14px;
+  line-height: 16px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button__text {
+  margin-left: 10px;
+}
+
+.main__logo__right img {
+  position: absolute;
+  width: 626px;
+  height: 724px;
+  right: 0;
+  top: 0;
+  background: none;
+  -webkit-filter: drop-shadow(0px 4px 150px rgba(35, 0, 6, 0.2)), drop-shadow(0px 4px 69px rgba(35, 0, 6, 0.5));
+          filter: drop-shadow(0px 4px 150px rgba(35, 0, 6, 0.2)), drop-shadow(0px 4px 69px rgba(35, 0, 6, 0.5));
+  background: none;
+}
+
+.blood {
+  background-image: url("../img/blood.png");
+  top: 0;
+  right: 0;
+}
