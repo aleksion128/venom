@@ -119,3 +119,29 @@ body {
 	margin-bottom: 5px;
 	font-family: "Roboto", sans-serif, Bold;
 }
+.acol-md2 {
+	display: flex;
+	margin-left: 110px;
+	margin-top: 20px;
+}
+.aright {
+	font-size: 16px;
+	margin-left: 63px;
+}
+.aleft li {
+	font-size: 16px;
+}
+.aleft {
+	margin-left: 110px;
+}
+.h3 {
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 110px;
+}
+.aimage__poster {
+	margin-top: -40px;
+}
+.aimage__poster img {
+	border-radius: 5px;
+}
